@@ -4,6 +4,7 @@ This repository contains the R code used for the simulation study in the paper
 
 **Optimal Estimation of Discrete Multiview Distributions under Heteroskedastic Multinomial Sampling**.
 **Authors:** Runshi Tang, Julien Chhor, Olga Klopp, Alexandre B. Tsybakov, and Anru R. Zhang
+
 The simulations compare several estimators for discrete multiview distributions under heteroskedastic multinomial sampling. The implemented methods include the pooled histogram estimator, the unscaled spectral estimator, oracle scaling, CP-based oracle-scaling approximation, oracle slice normalization, and estimated slice normalization.
 
 ## Repository structure
