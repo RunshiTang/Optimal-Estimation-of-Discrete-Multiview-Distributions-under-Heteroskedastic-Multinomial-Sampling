@@ -3,6 +3,7 @@
 This repository contains the R code used for the simulation study in the paper
 
 **Optimal Estimation of Discrete Multiview Distributions under Heteroskedastic Multinomial Sampling**.
+
 **Authors:** Runshi Tang, Julien Chhor, Olga Klopp, Alexandre B. Tsybakov, and Anru R. Zhang
 
 The simulations compare several estimators for discrete multiview distributions under heteroskedastic multinomial sampling. The implemented methods include the pooled histogram estimator, the unscaled spectral estimator, oracle scaling, CP-based oracle-scaling approximation, oracle slice normalization, and estimated slice normalization.
@@ -27,7 +28,6 @@ The main files are:
 - `multiview_simulation_functions_v5.R`: helper functions for generating multiview multinomial data, running the estimators, computing error metrics, and projecting estimates onto the probability simplex.
 - `Run_v5_compare_thinning.R`: runs the four simulation experiments and saves raw and summarized CSV files.
 - `Plot_v5_compare_thinning.R`: reads the saved CSV files and generates the PDF figures.
-- `multiview_four_experiments_v5/`: contains saved simulation outputs and generated figures.
 
 ## Requirements
 
@@ -95,11 +95,6 @@ Each experiment folder contains some or all of the following files:
 - `summary_normalized_l1.csv`: summary of normalized $\ell_1$ errors.
 - `summary_normalized_fro.csv`: summary of normalized Frobenius errors.
 
-## Notes
-
-- The script `Run_v5_compare_thinning.R` currently runs all four experiments when sourced.
-- To run experiments separately, call the corresponding functions in `Run_v5_compare_thinning.R`, such as `run_experiment2_dense_heteroskedastic_simulation()`.
-- The saved CSV and PDF files in this repository are the outputs from the current simulation configuration.
 
 ## Citation
 
